@@ -1,10 +1,10 @@
-# 🤖 LangGraph Agentic AI Chatbot
+# LangGraph Agentic AI Chatbot
 
 A production-grade Agentic AI Chatbot built using **LangGraph**, **LangChain**, and **Groq LLM** with multiple intelligent use cases including web search, AI news summarization, and a personal LinkedIn profile bot.
 
 ---
 
-## 🚀 Features
+##  Features
 
 | Use Case | Description |
 |---|---|
@@ -15,7 +15,7 @@ A production-grade Agentic AI Chatbot built using **LangGraph**, **LangChain**, 
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User Input (Streamlit UI)
@@ -34,7 +34,7 @@ Response displayed on UI
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ```
 LangGraph        — Agentic graph orchestration
@@ -50,7 +50,7 @@ Python           — Core language
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/langgraphagentic/
@@ -103,7 +103,7 @@ streamlit run app.py
 
 ---
 
-## 🔑 API Keys Required
+##  API Keys Required
 
 | Key | Purpose | Get it here |
 |---|---|---|
@@ -112,24 +112,24 @@ streamlit run app.py
 
 ---
 
-## 💡 How Each Use Case Works
+##  How Each Use Case Works
 
 ### 💬 Basic Chatbot
 ```
 User message → Groq LLM → Response
 ```
 
-### 🔍 Chatbot With Web Search
+###  Chatbot With Web Search
 ```
 User message → Tool call check → Tavily search → Groq LLM → Response
 ```
 
-### 📰 AI News Summarizer
+###  AI News Summarizer
 ```
 Topic → Tavily searches latest news → Groq summarizes → Structured report
 ```
 
-### 👤 LinkedIn Profile Bot
+### LinkedIn Profile Bot
 ```
 LinkedIn PDF → PyPDF extracts text → Chunks → FAISS embeddings
      ↓
@@ -138,7 +138,7 @@ User question → Semantic search → Relevant chunks → Groq answers
 
 ---
 
-## 📊 LangGraph Flow
+##  LangGraph Flow
 
 ```
 START
@@ -155,7 +155,7 @@ Select Usecase
 
 ---
 
-## 🎯 Key Highlights
+##  Key Highlights
 
 - ✅ Modular architecture — easy to add new use cases
 - ✅ Production-grade code with proper error handling
@@ -167,7 +167,7 @@ Select Usecase
 
 ---
 
-## 🧠 Models Supported
+## Models Supported
 
 ```
 llama-3.3-70b-versatile          ← recommended
@@ -178,7 +178,7 @@ openai/gpt-oss-120b              ← most powerful
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 ```
 langchain
@@ -202,5 +202,5 @@ python-dotenv
 **Komara Prasad**  
 AI Engineer | LLM Systems | RAG Pipelines | Agentic AI
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)(www.linkedin.com/in/prasadkpk)]
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/Prasad-Goud-collab)
